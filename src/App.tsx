@@ -12,7 +12,7 @@ function App() {
       </div>
 
       <div className="section">
-        <img src='https://threebearsmotel.com/wp-content/uploads/2021/06/3bearsoutside.jpg' />
+        <img className='motelFront' src='https://threebearsmotel.com/wp-content/uploads/2021/06/3bearsoutside.jpg' />
       </div>
 
       <div className='section'>
@@ -74,6 +74,10 @@ function App() {
 
       <div className='section'>
         {/* add events gallery */}
+        <h2>INDEPENDENCE DAY PARADE AND FIREWORKS</h2>
+        <h2>BLACKFOOT PATHWAYS: SCULPTURE IN THE WILD</h2>
+        <h2>EXPERIENCE
+          WILDLIFE</h2>
       </div>
 
       <div className='section'>
