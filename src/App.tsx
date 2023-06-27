@@ -124,13 +124,14 @@ function App() {
 
 
         <h3>Spread out and relax in a King or Queen Bed. We also have a room with 3 Extra Long Twin Beds for the Singles!</h3>
-        <ul className='room-features'>
+        <p>Step into our well-appointed rooms, designed with your comfort in mind. Sink into plush bedding and feel the stress melt away as you unwind in our cozy atmosphere. Stay connected with complimentary Wi-Fi, catch up on your favorite shows with our dish TV, and enjoy the convenience of in-room amenities such as a refrigerator, microwave, and single-serve coffee. We go above and beyond to ensure your stay feels like a home away from home.</p>
+        {/* <ul className='room-features'>
           <li>Check-in is 3:00 pm and Check-out is 11:00 am. If you need an early Check-in or late Check-out please ask and we will do the best we can to accommodate your needs.</li>
           <li>Every room has a refrigerator, microwave, single serve coffee, and DISH TV.</li>
           <li>All rooms are NON-SMOKING.</li>
           <li>Pet friendly rooms are available. Please let us know at time of reservation that you are traveling with a pet.</li>
           <li>Quiet Time is between 10:00 pm and 8:00 am.</li>
-        </ul>
+        </ul> */}
       </div>
 
       <div className='section'>
