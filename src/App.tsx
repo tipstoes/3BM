@@ -1,5 +1,7 @@
 
 import './App.css'
+import "./scripts/gallery.js"
+import { openModal, closeModal, plusSlides, currentSlide } from "./scripts/gallery.js";
 
 function App() {
 
@@ -19,7 +21,10 @@ function App() {
       <div className='section'>
         <h2>Welcome to Three Bears Motel</h2>
         <h2>Your Cozy Retreat in Lincoln, Montana!</h2>
-        <p className='info-text'>Discover the warmth and charm of Three Bears Motel, a small family-run establishment nestled in the heart of Lincoln, Montana. As your perfect haven for relaxation and adventure, our motel offers a delightful escape from the busyness of everyday life. Immerse yourself in the tranquil beauty of our surroundings and experience the genuine hospitality that sets us apart.</p>
+        <p className='info-text'>Escape to the tranquility and charm of Three Bears Motel, a hidden gem nestled in the heart of Lincoln, Montana. Immerse
+          yourself in the genuine warmth and hospitality that sets us apart from the rest. Our family-run motel offers a
+          delightful haven for relaxation, adventure, and unforgettable experiences.
+        </p>
 
       </div >
       <div className='section'>
@@ -47,6 +52,77 @@ function App() {
       <div className='section'>
         <h2>Rooms</h2>
         {/* add room gallery */}
+
+
+        <div className="row">
+          <div className="column">
+            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-400x284.jpg" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-400x284.jpg" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-400x284.jpg" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-400x284.jpg" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
+          </div>
+        </div>
+
+        {/* The Modal/Lightbox */}
+        <div id="myModal" className="modal">
+          <span className="close cursor" onClick={() => closeModal()}>&times;</span>
+          <div className="modal-content">
+
+            <div className="mySlides">
+              <div className="numbertext">1 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">2 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">3 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">4 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            {/* Next/previous controls */}
+            <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+
+            {/* Caption text */}
+            <div className="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            {/* Thumbnail image controls */}
+            <div className="column">
+              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-400x284.jpg" onClick={() => currentSlide(1)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-400x284.jpg" onClick={() => currentSlide(2)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-400x284.jpg" onClick={() => currentSlide(3)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-400x284.jpg" onClick={() => currentSlide(4)} alt="" />
+            </div>
+          </div>
+        </div>
+
+
         <h3>Spread out and relax in a King or Queen Bed. We also have a room with 3 Extra Long Twin Beds for the Singles!</h3>
         <ul className='room-features'>
           <li>Check-in is 3:00 pm and Check-out is 11:00 am. If you need an early Check-in or late Check-out please ask and we will do the best we can to accommodate your needs.</li>
@@ -122,6 +198,8 @@ function App() {
           <p>© Copyright threebearsmotel.com Icons made by Freepik from www.flaticon.com</p>
         </div>
       </div>
+
+
     </>
   )
 }
