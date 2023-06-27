@@ -29,7 +29,7 @@ function App() {
       <div className='section'>
 
         
-{/*center, bring in sides HOB */}
+{/*center, bring in sides HOB*/}
         <h2>Your Cozy Retreat in Lincoln, Montana!</h2>
         <p className='info-text'>Escape to the tranquility and charm of Three Bears Motel, a hidden gem nestled in the heart of Lincoln, Montana. Immerse
           yourself in the genuine warmth and hospitality that sets us apart from the rest. Our family-run motel offers a
@@ -62,7 +62,7 @@ function App() {
           <div className='icon-tile'>
             <img src='https://threebearsmotel.com/wp-content/uploads/2022/03/tipi-480x480.png' />
             <h3>TIPI</h3>
-{/*ADD LINK to learn more HOB */}
+{/*ADD LINK to learn more HOB*/}
             <p>Sleep under the stars in a spacious tipi. Learn more. </p>
           </div>
         </div>
@@ -151,7 +151,7 @@ function App() {
           and single-serve coffee. We go above and beyond to ensure your stay feels like a home away from home.</p>
 
 {
-{/*   ATL TEXT HOB */}
+{/*   ATL TEXT HOB*/}
           // <p className='info-text'> Experience ultimate comfort and relaxation in our thoughtfully-designed rooms at Three Bears Motel. Our plush bedding invites you to 
           // unwind, letting go of the day's worries in our serene atmosphere. Stay connected with our complimentary Wi-Fi and indulge in your 
           // preferred shows on our satellite TV. Enjoy the convenience of in-room amenities, including a refrigerator, microwave, and single-serve 
@@ -190,7 +190,7 @@ function App() {
           crystal-clear waters of the Blackfoot River, known for its world-class fishing. Set up camp in tranquil campsites and fall asleep 
           under a blanket of stars. Let nature's splendor rejuvenate your spirit and create memories to last a lifetime.</p>
 
-{/* ATL TEXT HOB */}
+{/* ATL TEXT HOB*/}
 {/*           <p className='info-text'> Immerse yourself in the awe-inspiring natural wonders that await you in Lincoln, Montana. As a gateway 
           to an outdoor paradise, our location will leave you spellbound. Embark on exhilarating adventures along our extensive network 
           of scenic hiking trails, meandering through verdant forests and unveiling breathtaking panoramas. Experience world-class fishing 
@@ -220,7 +220,7 @@ function App() {
       </div>
 
       <div className='section'>
-{/*move events to bottom HOB  */}
+{/*move events to bottom HOB*/}
         <h2>Events</h2>
         <p>To find events druing your stay please visit the Lincoln Valley Chamber of Commerce<a href='https://lincolnmontana.com/events/'>Events Page</a>.</p>
       </div>
@@ -283,30 +283,45 @@ function App() {
       <div className='footer'>
         <div>
           <h2>COME ON IN!</h2>
-          <span>Office Hours</span><span>8 AM to 10:00 PM </span>
-          <span>OPEN YEAR ROUND</span><span>Excluding the first two weeks of December. </span>
+          <span>Office Hours:</span><span> 8 AM to 10:00 PM </span>
+          <span>OPEN YEAR ROUND</span>
+
+{/*new line HOB*/}
+          <span>Excluding the first two weeks of December. </span>
+          
         </div>
         <div className='contact'>
           <h2>CONTACT</h2>
+{/*Click to call HOB*/}
           <span>Phone </span><span>(406) 362-4355 </span>
+{/*new line HOB*/}
+{/*click to email  HOB*/}
           <span>Email </span><span>threebearsmotel@gmail.com </span>
+{/*format better HOB*/}
+{/*click for directions HOB*/}
           <span>ADDRESS </span><span>MT HWY 200
             203 Main St.
             Lincoln, Montana  59639</span>
+{/*https://instagram.com/threebearsmotel HOB*/}
+{/*https://www.facebook.com/3bearsmotel   HOB*/}
         </div>
         <div className='section'>
           <h2>EXPLORE LINCOLN</h2>
           <img src='https://threebearsmotel.com/wp-content/uploads/2021/06/LincolnLogo-300x183.png' />
           {/* add links */}
           <p>Lincoln Valley Chamber of Commerce
-
+{/* https://lincolnmontana.com/ HOB*/}
+{/* https://www.facebook.com/people/Lincoln-Valley-Chamber-of-Commerce/100064534008482/ */}
             Lincoln Montana Upcoming Events
-
+{/* https://lincolnmontana.com/events/ HOB*/}
             Blackfoot Pathways Sculpture in the Wild
-
+{/* http://www.sculptureinthewild.com/ HOB*/}
+{/* https://www.facebook.com/people/Sculpture-in-the-Wild/100063756441766/ HOB*/}
             Continental Divide Trail
-
+{/* https://continentaldividetrail.org/communities/lincoln/ HOB*/}
             Hi-Country Snack Foods</p>
+{/* https://hicountry.com/ HOB*/}
+{/* https://www.facebook.com/HiCountryTradingPost HOB*/}
         </div>
         <div>
           <p>© Copyright threebearsmotel.com</p>
