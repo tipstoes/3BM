@@ -293,7 +293,7 @@ function App() {
         <div className='contact'>
           <h2>CONTACT</h2>
 {/*Click to call HOB*/}
-          <span>Phone </span><span>(406) 362-4355 </span>
+          <span>Phone Number </span><span>(406) 362-4355 </span>
 {/*new line HOB*/}
 {/*click to email  HOB*/}
           <span>Email </span><span>threebearsmotel@gmail.com </span>
@@ -311,17 +311,16 @@ function App() {
           {/* add links */}
           <p>Lincoln Valley Chamber of Commerce
 {/* https://lincolnmontana.com/ HOB*/}
-{/* https://www.facebook.com/people/Lincoln-Valley-Chamber-of-Commerce/100064534008482/ HOB*/}
             Lincoln Montana Upcoming Events
 {/* https://lincolnmontana.com/events/ HOB*/}
-            Blackfoot Pathways Sculpture in the Wild
+            Blackfoot Pathways: Sculpture in the Wild
 {/* http://www.sculptureinthewild.com/ HOB*/}
-{/* https://www.facebook.com/people/Sculpture-in-the-Wild/100063756441766/ HOB*/}
             Continental Divide Trail
 {/* https://continentaldividetrail.org/communities/lincoln/ HOB*/}
+            Adopt-a-section
+{/* https://continentaldividetrail.org/adopt-a-section/ HOB*/}
             Hi-Country Snack Foods</p>
 {/* https://hicountry.com/ HOB*/}
-{/* https://www.facebook.com/HiCountryTradingPost HOB*/}
         </div>
         <div>
           <p>© Copyright threebearsmotel.com</p>
