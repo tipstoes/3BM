@@ -124,7 +124,7 @@ function App() {
 
 
         <h3>Unforgettable Comfort and Convenience</h3>
-        <p>Step into our well-appointed rooms, designed with your comfort in mind. Sink into plush bedding and feel the stress melt away as you unwind in our cozy atmosphere. Stay connected with complimentary Wi-Fi, catch up on your favorite shows with our dish TV, and enjoy the convenience of in-room amenities such as a refrigerator, microwave, and single-serve coffee. We go above and beyond to ensure your stay feels like a home away from home.</p>
+        <p className='info-text'>Step into our well-appointed rooms, designed with your comfort in mind. Sink into plush bedding and feel the stress melt away as you unwind in our cozy atmosphere. Stay connected with complimentary Wi-Fi, catch up on your favorite shows with our dish TV, and enjoy the convenience of in-room amenities such as a refrigerator, microwave, and single-serve coffee. We go above and beyond to ensure your stay feels like a home away from home.</p>
         {/* <ul className='room-features'>
           <li>Check-in is 3:00 pm and Check-out is 11:00 am. If you need an early Check-in or late Check-out please ask and we will do the best we can to accommodate your needs.</li>
           <li>Every room has a refrigerator, microwave, single serve coffee, and DISH TV.</li>
@@ -135,7 +135,7 @@ function App() {
       </div>
 
       <div className='section'>
-        <h2>EXPERIENCE LINCOLN MONTANA</h2>
+        <h2>Gateway to Nature's Splendor</h2>
         <div className='icons'>
           <div className='icon-tile'>
             <img src='https://threebearsmotel.com/wp-content/uploads/2021/06/fishing-480x480.png' />
@@ -150,16 +150,14 @@ function App() {
             <h3>SNOWMOBILING</h3>
           </div>
         </div>
-        <p className='info-text'>Go fishing along the Blackfoot River. Hike the Continental Divide Trail. Experience the hundreds of miles of snowmobile and ATV trails. Or simply pull up a chair outside and take in the fresh air!</p>
+        <p className='info-text'>Prepare to be captivated by the natural beauty that surrounds us. Lincoln, Montana is a gateway to an outdoor paradise. Explore miles of hiking trails that wind through lush forests and reveal breathtaking vistas. Cast your line into the crystal-clear waters of the Blackfoot River, known for its world-class fishing. Set up camp in tranquil campsites and fall asleep under a blanket of stars. Let nature's splendor rejuvenate your spirit and create memories to last a lifetime.</p>
 
       </div>
 
       <div className='section'>
         {/* add events gallery */}
-        <h2>INDEPENDENCE DAY PARADE AND FIREWORKS</h2>
-        <h2>BLACKFOOT PATHWAYS: SCULPTURE IN THE WILD</h2>
-        <h2>EXPERIENCE
-          WILDLIFE</h2>
+        <h2>Embrace Local History and Culture</h2>
+        <p className='info-text'>Uncover the rich tapestry of Lincoln's history and immerse yourself in its vibrant culture. Visit the Lincoln Area Historical Society Museum, where fascinating exhibits bring the town's past to life. Discover the stories of the hardy pioneers and the resilient community that shaped this remarkable place. Dive into the intriguing connections to historical figures like Ted Kaczynski, adding a layer of depth to your understanding of this unique town.</p>
       </div>
 
       <div className='section'>
@@ -167,17 +165,43 @@ function App() {
         <p>To find events druing your stay please visit the Lincoln Valley Chamber of Commerce<a href='https://lincolnmontana.com/events/'>Events Page</a>.</p>
       </div>
 
+
+      <div className='section'>
+        {/* add events gallery */}
+        <h2>A Haven for Art Enthusiasts</h2>
+        <p className='info-text'>Indulge your artistic side and explore Lincoln's thriving arts scene. Engage with local artists and artisans at art festivals and events, where their talent and creativity shine. Wander through galleries that showcase captivating works inspired by the rugged beauty of Montana. Unleash your own creativity by participating in workshops and learning from skilled craftsmen. Lincoln is a haven for art enthusiasts, where inspiration awaits at every turn.</p>
+      </div>
+
+      <div className='section'>
+        {/* add events gallery */}
+        <h2>Local Flavors and Dining Delights</h2>
+        <p className='info-text'>Savor the flavors of Lincoln and treat your taste buds to a culinary journey. From cozy cafes to charming restaurants, our town offers a diverse range of dining options. Dive into hearty Montana fare, featuring locally sourced ingredients that reflect the region's natural bounty. Don't miss the opportunity to indulge in the legendary huckleberry pie, made from the wild berries that grow abundantly in our mountains. Discover a culinary paradise that will delight even the most discerning palate.</p>
+      </div>
+
+      <div className='section'>
+        {/* add events gallery */}
+        <h2>Experience Genuine Hospitality</h2>
+        <p className='info-text'>At Three Bears Motel, hospitality is our passion. As a small family-run establishment, we pour our heart and soul into ensuring your stay is exceptional. We welcome you with open arms, providing personalized recommendations for local attractions and activities. From the moment you arrive, you'll feel like part of our extended family, and we'll go above and beyond to make your stay unforgettable.</p>
+      </div>
+
+      <div className='section'>
+        {/* add events gallery */}
+        <h2>Plan Your Stay at Three Bears Motel</h2>
+        <p className='info-text'>Escape to the serenity and charm of Three Bears Motel, your perfect retreat in the heart of Lincoln, Montana. Begin your adventure today by booking your stay with us. Create cherished memories, connect with nature, and experience the genuine warmth of our hospitality. We can't wait to welcome you to our cozy haven in the mountains.</p>
+      </div>
+
+
       <div className='footer'>
         <div>
           <h2>COME ON IN!</h2>
-          <span>Office Hours</span><span>8 AM to 10:00 PM</span>
+          <span>Office Hours</span><span>8 AM to 10:00 PM </span>
           <span>OPEN YEAR ROUND</span><span>Excluding the first two weeks of December. </span>
         </div>
         <div className='contact'>
           <h2>CONTACT</h2>
-          <span>Phone</span><span>(406) 362-4355</span>
-          <span>Email</span><span>threebearsmotel@gmail.com</span>
-          <span>ADDRESS</span><span>MT HWY 200
+          <span>Phone </span><span>(406) 362-4355 </span>
+          <span>Email </span><span>threebearsmotel@gmail.com </span>
+          <span>ADDRESS </span><span>MT HWY 200
             203 Main St.
             Lincoln, Montana  59639</span>
         </div>
