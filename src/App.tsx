@@ -1,7 +1,7 @@
 
 import './App.css'
-import "./scripts/gallery.js"
-import { openModal, closeModal, plusSlides, currentSlide } from "./scripts/gallery.js";
+import './scripts/gallery.js'
+import { openModal, closeModal, plusSlides, currentSlide } from './scripts/gallery.js';
 
 function App() {
 
