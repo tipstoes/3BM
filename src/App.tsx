@@ -311,7 +311,7 @@ function App() {
           {/* add links */}
           <p>Lincoln Valley Chamber of Commerce
 {/* https://lincolnmontana.com/ HOB*/}
-{/* https://www.facebook.com/people/Lincoln-Valley-Chamber-of-Commerce/100064534008482/ */}
+{/* https://www.facebook.com/people/Lincoln-Valley-Chamber-of-Commerce/100064534008482/ HOB*/}
             Lincoln Montana Upcoming Events
 {/* https://lincolnmontana.com/events/ HOB*/}
             Blackfoot Pathways Sculpture in the Wild
