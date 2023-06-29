@@ -54,7 +54,7 @@ function App() {
         {/* add room gallery */}
 
 
-        <div className="row">
+        <div className="row room-pics">
           <div className="column">
             <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-400x284.jpg" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
           </div>
@@ -191,7 +191,7 @@ function App() {
       </div>
 
 
-      <div className='footer'>
+      <footer>
         <div>
           <h2>COME ON IN!</h2>
           <span>Office Hours</span><span>8 AM to 10:00 PM </span>
@@ -219,11 +219,11 @@ function App() {
 
             Hi-Country Snack Foods</p>
         </div>
-        <div>
-          <p>© Copyright threebearsmotel.com Icons made by Freepik from www.flaticon.com</p>
-        </div>
-      </div>
 
+      </footer>
+      <div>
+        <p>© Copyright threebearsmotel.com Icons made by Freepik from www.flaticon.com</p>
+      </div>
 
     </>
   )
