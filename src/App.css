@@ -83,7 +83,7 @@ body {
     display: none;
   }
 
-  .icons {
+  .icons .modal-content {
     flex-direction: column;
     align-items: center;
     width: auto;
