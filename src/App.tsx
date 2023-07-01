@@ -30,17 +30,17 @@ function App() {
       <div className='section'>
         <div className='icons'>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-wifi.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-wifi.png?raw=true' />
             <h3>WIFI</h3>
             <p>Free WiFi available for our guests.</p>
           </div>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-pets.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-pets.png?raw=true' />
             <h3>PET FRIENDLY</h3>
             <p>We have pet friendly rooms upon request. </p>
           </div>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-tipi.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-tipi.png?raw=true' />
             <h3>TIPI</h3>
             <p>Sleep under the stars in a spacious tipi. Learn more. </p>
           </div>
@@ -138,15 +138,15 @@ function App() {
         <h2>Gateway to Nature's Splendor</h2>
         <div className='icons'>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-fishing.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-fishing.png?raw=true' />
             <h3>FISHING</h3>
           </div>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-hiking.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-hiking.png?raw=true' />
             <h3>HIKING</h3>
           </div>
           <div className='icon-tile'>
-            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon-snow.png?raw=true' />
+            <img src='https://github.com/Star-Cat13/3BM/blob/main/public/icon3-snow.png?raw=true' />
             <h3>SNOWMOBILING</h3>
           </div>
         </div>
