@@ -1,7 +1,7 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -20,16 +20,19 @@ body {
 }
 
 .info-text {
-  text-align: left;
+  text-align: justify;
   text-indent: 20px;
-}
-
-.room-features {
-  text-align: left;
+  padding: 0 2rem;
 }
 
 .section {
   height: auto;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.section:nth-child(even) {
+  background-color: gray;
 }
 
 .section img {
@@ -52,8 +55,27 @@ body {
   margin: 10px 0 0 0;
 }
 
-.section:nth-child(even) {
-  background-color: gray;
+.outdoors-tile {
+  display: flex;
+  width: 50%;
+}
+
+.art-haven-tile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.art-haven-tile img {
+  width: 33.33%;
+}
+
+.nature-tile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nature-tile img {
+  width: 33.33%;
 }
 
 .fullpg {
@@ -98,7 +120,8 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
+  align-items: center;
 }
 
 .row:after {
@@ -109,7 +132,7 @@ body {
 
 /* Create four equal columns that floats next to eachother */
 .column {
-  float: left;
+  /* float: left; */
   width: 45%;
   margin: 1.66%;
 }

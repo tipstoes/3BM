@@ -18,15 +18,19 @@ function App() {
         <img className='fullpg' src='https://github.com/Star-Cat13/3BM/blob/main/public/motel-front.jpg?raw=true' />
       </div>
 
-      <div className='section'>
-        <h2>Welcome to Three Bears Motel</h2>
-        <h2>Your Cozy Retreat in Lincoln, Montana!</h2>
-        <p className='info-text'>Escape to the tranquility and charm of Three Bears Motel, a hidden gem nestled in the heart of Lincoln, Montana. Immerse
-          yourself in the genuine warmth and hospitality that sets us apart from the rest. Our family-run motel offers a
-          delightful haven for relaxation, adventure, and unforgettable experiences.
-        </p>
-
+      <div className='section welcome'>
+        <div className="content">
+          <div className="text">
+            <h2>Welcome to Three Bears Motel. Your Cozy Retreat in Lincoln, Montana!</h2>
+            <p className="info-text">Escape to the tranquility and charm of Three Bears Motel, a hidden gem nestled in the heart of Lincoln, Montana. Immerse
+              yourself in the genuine warmth and hospitality that sets us apart from the rest. Our family-run motel offers a
+              delightful haven for relaxation, adventure, and unforgettable experiences.
+            </p>
+          </div>
+          <img src="https://github.com/Star-Cat13/3BM/blob/main/public/carved-bear.jpg?raw=true" alt="" />
+        </div>
       </div >
+
       <div className='section'>
         <div className='icons'>
           <div className='icon-tile'>
@@ -152,18 +156,22 @@ function App() {
           </div>
         </div>
         <p className='info-text'>Prepare to be captivated by the natural beauty that surrounds us. Lincoln, Montana is a gateway to an outdoor paradise. Explore miles of hiking trails that wind through lush forests and reveal breathtaking vistas. Cast your line into the crystal-clear waters of the Blackfoot River, known for its world-class fishing. Set up camp in tranquil campsites and fall asleep under a blanket of stars. Let nature's splendor rejuvenate your spirit and create memories to last a lifetime.</p>
-
+        <div className='outdoors-tile' >
+          <img className='outdoors-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/paddle-board.jpg?raw=true" alt="" />
+          <img className='outdoors-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/snowmobiles.jpg?raw=true" alt="" />
+        </div>
       </div>
 
       <div className='section'>
         {/* add events gallery */}
         <h2>Embrace Local History and Culture</h2>
+        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/lincoln-mt.png?raw=true" alt="Welcome to Lincoln Sign" />
         <p className='info-text'>Uncover the rich tapestry of Lincoln's history and immerse yourself in its vibrant culture. Visit the Lincoln Area Historical Society Museum, where fascinating exhibits bring the town's past to life. Discover the stories of the hardy pioneers and the resilient community that shaped this remarkable place. Dive into the intriguing connections to historical figures like Ted Kaczynski, adding a layer of depth to your understanding of this unique town.</p>
       </div>
 
       <div className='section'>
         <h2>Events</h2>
-        <p>To find events druing your stay please visit the Lincoln Valley Chamber of Commerce<a href='https://lincolnmontana.com/events/'>Events Page</a>.</p>
+        <p className='info-text'>To find events druing your stay please visit the Lincoln Valley Chamber of Commerce <a href='https://lincolnmontana.com/events/'>Events Page</a>.</p>
       </div>
 
 
@@ -171,6 +179,11 @@ function App() {
         {/* add events gallery */}
         <h2>A Haven for Art Enthusiasts</h2>
         <p className='info-text'>Indulge your artistic side and explore Lincoln's thriving arts scene. Engage with local artists and artisans at art festivals and events, where their talent and creativity shine. Wander through galleries that showcase captivating works inspired by the rugged beauty of Montana. Unleash your own creativity by participating in workshops and learning from skilled craftsmen. Lincoln is a haven for art enthusiasts, where inspiration awaits at every turn.</p>
+        <div className='art-haven-tile' >
+          <img className='art-haven-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/sculpltures-logs.jpg?raw=true" alt="" />
+          <img className='art-haven-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/sculptures01.jpg?raw=true" alt="" />
+          <img className='art-haven-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/hat-building.jpg?raw=true" alt="" />
+        </div>
       </div>
 
       <div className='section'>
@@ -181,8 +194,22 @@ function App() {
 
       <div className='section'>
         {/* add events gallery */}
+        <h2>Lincoln, Montana's Enchanting Nature and Wildlife</h2>
+        <p className='info-text'>Nestled in the heart of the rugged Rocky Mountains, Lincoln, Montana, boasts a breathtaking natural wonderland that beckons to wildlife enthusiasts and nature lovers alike. With its pristine forests, crystal-clear rivers, and majestic peaks, the region offers a sanctuary for an array of fascinating wildlife. Visitors to Lincoln can witness the awe-inspiring sight of graceful elk meandering through lush meadows, while bald eagles soar majestically overhead. The area is also home to elusive black bears, playful river otters, and an assortment of native bird species, creating an enchanting tapestry of biodiversity. Whether exploring the Bob Marshall Wilderness Complex or admiring the serenity of the Blackfoot River, the harmonious coexistence of humans and nature in Lincoln, Montana, promises an unforgettable and immersive tourist attraction, celebrating the untamed beauty of the wild.</p>
+        <div className='nature-tile' >
+          <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/buck.jpg?raw=true" alt="" />
+          <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/grizzly-bears.jpg?raw=true" alt="" />
+          <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/deer.jpg?raw=true" alt="" />
+        </div>
+
+      </div>
+
+
+      <div className='section'>
+        {/* add events gallery */}
         <h2>Experience Genuine Hospitality</h2>
         <p className='info-text'>At Three Bears Motel, hospitality is our passion. As a small family-run establishment, we pour our heart and soul into ensuring your stay is exceptional. We welcome you with open arms, providing personalized recommendations for local attractions and activities. From the moment you arrive, you'll feel like part of our extended family, and we'll go above and beyond to make your stay unforgettable.</p>
+        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/corner-bears.jpg?raw=true" alt="" />
       </div>
 
       <div className='section'>
@@ -223,7 +250,7 @@ function App() {
 
       </footer>
       <div>
-        <p>© Copyright threebearsmotel.com Icons made by Freepik from www.flaticon.com</p>
+        <p>© Copyright threebearsmotel.com</p>
       </div>
 
     </>
