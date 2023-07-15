@@ -78,8 +78,16 @@ body {
   width: 33.33%;
 }
 
+.title {
+  padding-top: 20px;
+}
+
 .fullpg {
   max-width: 100%;
+}
+
+li {
+  list-style-type: none;
 }
 
 @keyframes logo-spin {

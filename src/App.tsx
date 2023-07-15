@@ -189,7 +189,7 @@ function App() {
       <div className='section'>
         {/* add events gallery */}
         <h2>Local Flavors and Dining Delights</h2>
-        <p className='info-text'>Savor the flavors of Lincoln and treat your taste buds to a culinary journey. From cozy cafes to charming restaurants, our town offers a diverse range of dining options. Dive into hearty Montana fare, featuring locally sourced ingredients that reflect the region's natural bounty. Don't miss the opportunity to indulge in the legendary huckleberry dishes, made from the wild berries that grow abundantly in our mountains. Discover a culinary paradise that will delight even the most discerning palate.</p>
+        <p className='info-text'>Savor the flavors of Lincoln and treat your taste buds to a culinary journey. From cozy cafes to charming restaurants, our town offers a range of dining options. Dive into hearty Montana fare, featuring locally sourced ingredients that reflect the region's natural bounty. Don't miss the opportunity to indulge in the legendary huckleberry dishes, made from the wild berries that grow abundantly in our mountains. Discover a culinary paradise that will delight even the most discerning palate.</p>
       </div>
 
       <div className='section'>
@@ -235,20 +235,21 @@ function App() {
               Lincoln, Montana  59639</span>
           </div>
         </div>
-        <div className='section'>
+        <div className='links'>
           <h2>EXPLORE LINCOLN</h2>
           <img src='https://threebearsmotel.com/wp-content/uploads/2021/06/LincolnLogo-300x183.png' />
           {/* add links */}
-          <p>
-            <a href="http://lincolnmontana.com/">Lincoln Valley Chamber of Commerce</a>
+          <ul>
+            <li><a href="http://lincolnmontana.com/">Lincoln Valley Chamber of Commerce</a></li>
 
-            <a href="http://lincolnmontana.com/events">Lincoln Montana Upcoming Events</a>
+            <li><a href="http://lincolnmontana.com/events">Lincoln Montana Upcoming Events</a></li>
 
-            <a href="http://www.sculptureinthewild.com/">Blackfoot Pathways Sculpture in the Wild</a>
+            <li><a href="http://www.sculptureinthewild.com/">Blackfoot Pathways Sculpture in the Wild</a></li>
 
-            <a href="https://continentaldividetrail.org/trip-planning/">Continental Divide Trail</a>
+            <li><a href="https://continentaldividetrail.org/trip-planning/">Continental Divide Trail</a></li>
 
-            <a href="https://www.hicountry.com/">Hi-Country Snack Foods</a> </p>
+            <li><a href="https://www.hicountry.com/">Hi-Country Snack Foods</a></li>
+          </ul>
         </div>
 
       </footer>
