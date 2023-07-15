@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <img className='logo' src='https://threebearsmotel.com/wp-content/uploads/2021/06/sign2.jpg' />
+      <img className='logo' src='https://github.com/Star-Cat13/3BM/blob/main/public/three-bears-motel.jpg?raw=true' />
       <div>
         <h1>Three Bears Motel Lincoln, MT</h1>
         <p className='address'>MT HWY 200 203 Main St Lincoln, Montana 59639</p>
@@ -15,7 +15,7 @@ function App() {
       </div>
 
       <div className="section">
-        <img className='fullpg' src='https://threebearsmotel.com/wp-content/uploads/2021/06/3bearsoutside.jpg' />
+        <img className='fullpg' src='https://github.com/Star-Cat13/3BM/blob/main/public/motel-front.jpg?raw=true' />
       </div>
 
       <div className='section'>
@@ -56,16 +56,16 @@ function App() {
 
         <div className="row room-pics">
           <div className="column">
-            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-400x284.jpg" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-400x284.jpg" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-400x284.jpg" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-400x284.jpg" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
           </div>
         </div>
 
@@ -105,19 +105,19 @@ function App() {
 
             {/* Thumbnail image controls */}
             <div className="column">
-              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-400x284.jpg" onClick={() => currentSlide(1)} alt="" />
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => currentSlide(1)} alt="" />
             </div>
 
             <div className="column">
-              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-400x284.jpg" onClick={() => currentSlide(2)} alt="" />
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => currentSlide(2)} alt="" />
             </div>
 
             <div className="column">
-              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-400x284.jpg" onClick={() => currentSlide(3)} alt="" />
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => currentSlide(3)} alt="" />
             </div>
 
             <div className="column">
-              <img className="demo" src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-400x284.jpg" onClick={() => currentSlide(4)} alt="" />
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => currentSlide(4)} alt="" />
             </div>
           </div>
         </div>
