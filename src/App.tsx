@@ -132,6 +132,7 @@ function App() {
           <li>Pet friendly rooms are available. Please let us know at time of reservation that you are traveling with a pet.</li>
           <li>Quiet Time is between 10:00 pm and 8:00 am.</li>
         </ul> */}
+        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room06-scaled.jpg?raw=true" alt="" />
       </div>
 
       <div className='section'>
