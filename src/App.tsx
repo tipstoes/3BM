@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <img className='logo' src='https://github.com/Star-Cat13/3BM/blob/main/public/three-bears-motel.jpg?raw=true' />
-      <div>
+      <div className='title' >
         <h1>Three Bears Motel Lincoln, MT</h1>
         <p className='address'>MT HWY 200 203 Main St Lincoln, Montana 59639</p>
         <p className='phoneNumber'>406-362-4355</p>
@@ -178,7 +178,7 @@ function App() {
       <div className='section'>
         {/* add events gallery */}
         <h2>A Haven for Art Enthusiasts</h2>
-        <p className='info-text'>Indulge your artistic side and explore Lincoln's thriving arts scene. Engage with local artists and artisans at art festivals and events, where their talent and creativity shine. Wander through galleries that showcase captivating works inspired by the rugged beauty of Montana. Unleash your own creativity by participating in workshops and learning from skilled craftsmen. Lincoln is a haven for art enthusiasts, where inspiration awaits at every turn.</p>
+        <p className='info-text'>Indulge your artistic side and explore Lincoln's thriving arts scene. It's open year round, handicap accessable, and free to visit!</p>
         <div className='art-haven-tile' >
           <img className='art-haven-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/sculpltures-logs.jpg?raw=true" alt="" />
           <img className='art-haven-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/sculptures01.jpg?raw=true" alt="" />
@@ -189,7 +189,7 @@ function App() {
       <div className='section'>
         {/* add events gallery */}
         <h2>Local Flavors and Dining Delights</h2>
-        <p className='info-text'>Savor the flavors of Lincoln and treat your taste buds to a culinary journey. From cozy cafes to charming restaurants, our town offers a diverse range of dining options. Dive into hearty Montana fare, featuring locally sourced ingredients that reflect the region's natural bounty. Don't miss the opportunity to indulge in the legendary huckleberry pie, made from the wild berries that grow abundantly in our mountains. Discover a culinary paradise that will delight even the most discerning palate.</p>
+        <p className='info-text'>Savor the flavors of Lincoln and treat your taste buds to a culinary journey. From cozy cafes to charming restaurants, our town offers a diverse range of dining options. Dive into hearty Montana fare, featuring locally sourced ingredients that reflect the region's natural bounty. Don't miss the opportunity to indulge in the legendary huckleberry dishes, made from the wild berries that grow abundantly in our mountains. Discover a culinary paradise that will delight even the most discerning palate.</p>
       </div>
 
       <div className='section'>
@@ -198,7 +198,7 @@ function App() {
         <p className='info-text'>Nestled in the heart of the rugged Rocky Mountains, Lincoln, Montana, boasts a breathtaking natural wonderland that beckons to wildlife enthusiasts and nature lovers alike. With its pristine forests, crystal-clear rivers, and majestic peaks, the region offers a sanctuary for an array of fascinating wildlife. Visitors to Lincoln can witness the awe-inspiring sight of graceful elk meandering through lush meadows, while bald eagles soar majestically overhead. The area is also home to elusive black bears, playful river otters, and an assortment of native bird species, creating an enchanting tapestry of biodiversity. Whether exploring the Bob Marshall Wilderness Complex or admiring the serenity of the Blackfoot River, the harmonious coexistence of humans and nature in Lincoln, Montana, promises an unforgettable and immersive tourist attraction, celebrating the untamed beauty of the wild.</p>
         <div className='nature-tile' >
           <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/buck.jpg?raw=true" alt="" />
-          <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/grizzly-bears.jpg?raw=true" alt="" />
+          <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/grissly-bears-crop.png?raw=true" alt="" />
           <img className='nature-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/deer.jpg?raw=true" alt="" />
         </div>
 
@@ -220,32 +220,35 @@ function App() {
 
 
       <footer>
-        <div>
-          <h2>COME ON IN!</h2>
-          <span>Office Hours</span><span>8 AM to 10:00 PM </span>
-          <span>OPEN YEAR ROUND</span><span>Excluding the first two weeks of December. </span>
-        </div>
-        <div className='contact'>
-          <h2>CONTACT</h2>
-          <span>Phone </span><span>(406) 362-4355 </span>
-          <span>Email </span><span>threebearsmotel@gmail.com </span>
-          <span>ADDRESS </span><span>MT HWY 200
-            203 Main St.
-            Lincoln, Montana  59639</span>
+        <div className='footer-top' >
+          <div className='hours' >
+            <h2>COME ON IN!</h2>
+            <span>Office Hours: 8 AM to 10 PM </span> <br />
+            <span>OPEN YEAR ROUND Excluding the first two weeks of December. </span>
+          </div>
+          <div className='contact'>
+            <h2>CONTACT</h2>
+            <span>PHONE </span><span>(406) 362-4355 </span> <br />
+            <span>EMAIL </span><span>threebearsmotel@gmail.com</span><br />
+            <span>ADDRESS </span><br /><span>MT HWY 200<br />
+              203 Main St.<br />
+              Lincoln, Montana  59639</span>
+          </div>
         </div>
         <div className='section'>
           <h2>EXPLORE LINCOLN</h2>
           <img src='https://threebearsmotel.com/wp-content/uploads/2021/06/LincolnLogo-300x183.png' />
           {/* add links */}
-          <p>Lincoln Valley Chamber of Commerce
+          <p>
+            <a href="http://lincolnmontana.com/">Lincoln Valley Chamber of Commerce</a>
 
-            Lincoln Montana Upcoming Events
+            <a href="http://lincolnmontana.com/events">Lincoln Montana Upcoming Events</a>
 
-            Blackfoot Pathways Sculpture in the Wild
+            <a href="http://www.sculptureinthewild.com/">Blackfoot Pathways Sculpture in the Wild</a>
 
-            Continental Divide Trail
+            <a href="https://continentaldividetrail.org/trip-planning/">Continental Divide Trail</a>
 
-            Hi-Country Snack Foods</p>
+            <a href="https://www.hicountry.com/">Hi-Country Snack Foods</a> </p>
         </div>
 
       </footer>
