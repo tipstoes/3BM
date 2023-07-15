@@ -83,14 +83,13 @@ body {
     display: none;
   }
 
-  .icons,
-  {
-  flex-direction: column;
-  align-items: center;
-  width: auto;
-}
+  .icons {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
 
-/* Additional CSS rules for phone screens */
+  /* Additional CSS rules for phone screens */
 }
 
 
