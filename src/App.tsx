@@ -3,6 +3,7 @@ import './App.css'
 import './scripts/gallery.js'
 import { openModal, closeModal, plusSlides, currentSlide } from './scripts/gallery.js';
 
+
 function App() {
 
   return (
@@ -129,13 +130,6 @@ function App() {
 
         <h3>Unforgettable Comfort and Convenience</h3>
         <p className='info-text'>Step into our well-appointed rooms, designed with your comfort in mind. Sink into plush bedding and feel the stress melt away as you unwind in our cozy atmosphere. Stay connected with complimentary Wi-Fi, catch up on your favorite shows with our dish TV, and enjoy the convenience of in-room amenities such as a refrigerator, microwave, and single-serve coffee. We go above and beyond to ensure your stay feels like a home away from home.</p>
-        {/* <ul className='room-features'>
-          <li>Check-in is 3:00 pm and Check-out is 11:00 am. If you need an early Check-in or late Check-out please ask and we will do the best we can to accommodate your needs.</li>
-          <li>Every room has a refrigerator, microwave, single serve coffee, and DISH TV.</li>
-          <li>All rooms are NON-SMOKING.</li>
-          <li>Pet friendly rooms are available. Please let us know at time of reservation that you are traveling with a pet.</li>
-          <li>Quiet Time is between 10:00 pm and 8:00 am.</li>
-        </ul> */}
         <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room06-scaled.jpg?raw=true" alt="" />
       </div>
 
@@ -161,6 +155,87 @@ function App() {
           <img className='outdoors-img' src="https://github.com/Star-Cat13/3BM/blob/main/public/snowmobiles.jpg?raw=true" alt="" />
         </div>
       </div>
+
+
+      <div className='section'>
+        <h2>Tipi</h2>
+        {/* add room gallery */}
+
+
+        <div className="row room-pics">
+          <div className="column">
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
+          </div>
+          <div className="column">
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
+          </div>
+        </div>
+
+        {/* The Modal/Lightbox */}
+        <div id="myModal" className="modal">
+          <span className="close cursor" onClick={() => closeModal()}>&times;</span>
+          <div className="modal-content">
+
+            <div className="mySlides">
+              <div className="numbertext">1 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">2 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">3 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            <div className="mySlides">
+              <div className="numbertext">4 / 4</div>
+              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-scaled.jpg" style={{ width: '100%' }} />
+            </div>
+
+            {/* Next/previous controls */}
+            <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+
+            {/* Caption text */}
+            <div className="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            {/* Thumbnail image controls */}
+            <div className="column">
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => currentSlide(1)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => currentSlide(2)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => currentSlide(3)} alt="" />
+            </div>
+
+            <div className="column">
+              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => currentSlide(4)} alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <h3>Seasonal Tipi</h3>
+        <p className='info-text'>We invite you to experience sleeping under the stars in a spacious tipi and the comfort of a queen bed. </p>
+        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room06-scaled.jpg?raw=true" alt="" />
+      </div>
+
 
       <div className='section'>
         {/* add events gallery */}
