@@ -82,26 +82,34 @@ function App() {
             <div className="mySlides">
               <div className="numbertext">1 / 4</div>
               <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-scaled.jpg" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">2 / 4</div>
               <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-scaled.jpg" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">3 / 4</div>
               <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-scaled.jpg" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">4 / 4</div>
               <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-scaled.jpg" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             {/* Next/previous controls */}
-            <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
-            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+            {/* <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a> */}
 
             {/* Caption text */}
             <div className="caption-container">
@@ -109,20 +117,22 @@ function App() {
             </div>
 
             {/* Thumbnail image controls */}
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => currentSlide(1)} alt="" />
-            </div>
+            <div className='thumbnails-container'>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => currentSlide(1)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => currentSlide(2)} alt="" />
-            </div>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => currentSlide(2)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => currentSlide(3)} alt="" />
-            </div>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => currentSlide(3)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => currentSlide(4)} alt="" />
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => currentSlide(4)} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -158,22 +168,22 @@ function App() {
 
 
       <div className='section'>
-        <h2>Tipi</h2>
+        <h2>Rooms</h2>
         {/* add room gallery */}
 
 
         <div className="row room-pics">
           <div className="column">
-            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bear-400x284.png?raw=true" onClick={() => { openModal(); currentSlide(1); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bed-400x284.png?raw=true" onClick={() => { openModal(); currentSlide(2); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-canopy-400x284.png?raw=true" onClick={() => { openModal(); currentSlide(3); }} className="hover-shadow" />
           </div>
           <div className="column">
-            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
+            <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-chairs-400x284.png?raw=true" onClick={() => { openModal(); currentSlide(4); }} className="hover-shadow" />
           </div>
         </div>
 
@@ -184,27 +194,35 @@ function App() {
 
             <div className="mySlides">
               <div className="numbertext">1 / 4</div>
-              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room05-scaled.jpg" style={{ width: '100%' }} />
+              <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bear.jpg?raw=true" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">2 / 4</div>
-              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room01-scaled.jpg" style={{ width: '100%' }} />
+              <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bed.jpg?raw=true" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">3 / 4</div>
-              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room03-scaled.jpg" style={{ width: '100%' }} />
+              <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-canopy.jpg?raw=true" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             <div className="mySlides">
               <div className="numbertext">4 / 4</div>
-              <img src="https://threebearsmotel.com/wp-content/uploads/2021/06/room02-scaled.jpg" style={{ width: '100%' }} />
+              <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-chairs.jpg?raw=true" style={{ width: '100%' }} />
+              <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+              <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
 
             {/* Next/previous controls */}
-            <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
-            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+            {/* <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a> */}
 
             {/* Caption text */}
             <div className="caption-container">
@@ -212,20 +230,22 @@ function App() {
             </div>
 
             {/* Thumbnail image controls */}
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room05-400x284.jpg?raw=true" onClick={() => currentSlide(1)} alt="" />
-            </div>
+            <div className='thumbnails-container'>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bear-400x284.png?raw=true" onClick={() => currentSlide(1)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room01-400x284.jpg?raw=true" onClick={() => currentSlide(2)} alt="" />
-            </div>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-bed-400x284.png?raw=true" onClick={() => currentSlide(2)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room03-400x284.jpg?raw=true" onClick={() => currentSlide(3)} alt="" />
-            </div>
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-canopy-400x284.png?raw=true" onClick={() => currentSlide(3)} alt="" />
+              </div>
 
-            <div className="column">
-              <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/room02-400x284.jpg?raw=true" onClick={() => currentSlide(4)} alt="" />
+              <div className="column">
+                <img className="demo" src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-chairs-400x284.png?raw=true" onClick={() => currentSlide(4)} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -233,7 +253,7 @@ function App() {
 
         <h3>Seasonal Tipi</h3>
         <p className='info-text'>We invite you to experience sleeping under the stars in a spacious tipi and the comfort of a queen bed. </p>
-        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/room06-scaled.jpg?raw=true" alt="" />
+        <img src="https://github.com/Star-Cat13/3BM/blob/main/public/tipi-front.jpg?raw=true" alt="" />
       </div>
 
 

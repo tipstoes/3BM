@@ -138,9 +138,15 @@ li {
   clear: both;
 }
 
+
+.thumbnails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Create four equal columns that floats next to eachother */
 .column {
-  /* float: left; */
   width: 45%;
   margin: 1.66%;
 }
@@ -194,6 +200,7 @@ li {
 /* Hide the slides by default */
 .mySlides {
   display: none;
+  position: relative;
 }
 
 /* Next & previous buttons */
