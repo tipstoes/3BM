@@ -3,7 +3,7 @@ import './App.css'
 import './scripts/gallery.js'
 import { openModal, closeModal, plusSlides, currentSlide } from './scripts/gallery.js';
 
-
+// test
 function App() {
 
   return (
